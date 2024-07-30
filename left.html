@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: white;
+            padding: 10px 0;
+            width: 100px;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 14px 20px;
+            width: 100px;
+            box-sizing: border-box;
+        }
+        .navbar a:hover {
+            background-color: rgb(68, 172, 82);
+            color: white;
+        }
+        .navbar .logo {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 14px 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <marquee behavior="slide" direction="Left">CLICK TO ENTER</marquee>
+       
+        <a href="cse.html" target="rightFrame">CSE</a>
+        <a href="ece.html" target="rightFrame">ECE</a>
+        <a href="eee.html" target="rightFrame">EEE</a>
+        <a href="civil.html" target="rightFrame">CIVIL</a>
+    </div>
+
+</body>
+</html>
